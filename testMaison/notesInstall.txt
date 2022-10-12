@@ -1,0 +1,33 @@
+opam install ounit2
+opam install ocaml-lsp-server
+opam install ocamlformat
+(**)
+
+relancer vscode
+
+pour compiler sans un projet dune  :
+
+ocamlfind ocamlc -o test -package ounit2 -linkpkg -g fichierDeTest.ml
+
+https://gildor478.github.io/ounit/ounit2/index.html#what-is-unit-testing
+avec exemple de test ocaml avec ounit2
+
+documentation technique ounit2
+https://dsheets.github.io/codoc/ounit.2.0.0/_build/src/oUnit2/
+
+https://discuss.ocaml.org/t/unbound-module-when-compiling-in-vscode/8730/2
+explique pourquoi il vaut mieux utiliser dune
+
+quickstart de dune
+https://dune.readthedocs.io/en/stable/quick-start.html
+
+(**)
+<><> ocp-indent.1.8.1 installed successfully ><><><><><><><><><><><><><><><><><>
+=> This package requires additional configuration for use in editors. Install package 'user-setup', or manually:
+
+   * for Emacs, add these lines to ~/.emacs:
+     (add-to-list 'load-path "/home/jade/.opam/default/share/emacs/site-lisp")
+     (require 'ocp-indent)
+
+   * for Vim, add this line to ~/.vimrc:
+     set rtp^="/home/jade/.opam/default/share/ocp-indent/vim"

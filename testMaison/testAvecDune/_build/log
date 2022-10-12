@@ -1,0 +1,6 @@
+# dune init proj testOunit2
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root:
+# /home/jade/Documents/github/jadecrtl/licence3_PF/testMaison/testAvecDune
+# Auto-detected concurrency: 2
